@@ -1,0 +1,110 @@
+/*CABEÇALHO*/
+
+.header{
+    background-color:  #52a363;
+    margin-bottom: 10px;
+}
+
+.logo_area h2{
+    font-family: Brush Script MT;
+    padding: 10px 20px 10px 20px;
+    font-size: 40px;
+}
+
+.logo_area a{
+    text-decoration: none;
+    color: white;
+}
+
+.search_area {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#buscar_btn{
+    background-color: white;
+    border: solid;
+    border-width: 2px 0px 2px 2px;
+    border-radius: 10% 0px 0px 10%;
+    color: lightgray;
+    padding: 3px;
+}
+
+#buscar_in{
+    background-color: white;
+    border: solid;
+    border-width: 2px 0px 2px 0px;
+    border-color: lightgray;
+    padding: 3px;
+}
+
+#limpar_btn{
+    background-color: white;
+    border: solid;
+    border-width: 2px 2px 2px 0px;
+    border-radius: 0px 10% 10% 0px;
+    color: lightgrey;
+    padding: 3px;
+}
+
+/* Imagens */
+
+#img_filme{
+    margin-top: 10px;
+}
+
+/* Pé */
+
+.footer{
+    background-color: #52a363; 
+    color:white;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:600px){
+
+    #lista_filmes p{
+        font-size: small;
+        margin: 1px;
+        margin-bottom: 2px;
+    }
+
+    #lista_filmes h5{
+        font-style: italic;
+        font-size: small;
+        margin: 1px;
+        margin-bottom: 2px;
+    }
+
+    #lista_filmes h6{
+        font-size: small; 
+        margin: 1px;
+    }
+
+    #pesquisa_filmes p{
+        font-size: small;
+        margin: 1px;
+        margin-bottom: 2px;
+    }    
+
+    #pesquisa_filmes h5{
+        font-size: small;
+        margin: 1px;
+        margin-bottom: 2px;
+    }
+
+    #pesquisa_filmes h6{
+        font-size: small; 
+        margin: 1px;
+    }
+
+    #img_filme{
+        width: 90vw;  
+    }
+}
